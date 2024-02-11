@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo{
+    color: rosybrown;
+    font-size: 25px;
+}
+.btn{
+    background-color: rosybrown;
+}
+.bg-img{
+
+opacity: 0.6;
+}
+.aboutus{
+    /* width: 98%; */
+    margin: auto;
+    padding: 20px;
+    /* border-radius: 5%; */
+    background-color: rgb(231, 207, 207);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  
+   
+}
+.contactusForm{
+    background-color: lightgray;
+    padding: 20px;
+}
+
+.img-container img {
+    max-width: 100%;
+    height: auto;
+    
+  }
+
+.aboutus p{
+    color: grey;
+    font-size: 20px;
+}
+.aboutus h1,h3{
+
+    color: rosybrown;
+    font-family: 'Salsa', cursive;
+}
+
+.aboutus h1{
+
+border: 2px solid rosybrown;
+padding: 10px;
+
+}
+.contents{
+    display: flex;
+}
+.featured-items{
+    background-color: rgb(231, 207, 207);
+    text-align: center;
+    margin: auto;
+
+    padding: 10px;
+
+}
+
+.featured-items h1{
+    font-family: 'Salsa', cursive;
+}
+.card-img-top{
+    height: 250px;
+}
+
+@media screen and (max-width: 600px) {
+    .text {
+        display: none;
+    }
+}
